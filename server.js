@@ -62,5 +62,5 @@ app.get('/bad',(request,response) =>{
 });
 
 app.listen(port, ()=>{
-  console.log("app is up on server "+ port)
+  console.log(port)
 });
